@@ -2,8 +2,12 @@ import React from "react"
 import styled from "styled-components"
 
 export const NavList = styled.nav`
-    padding: 10px 10px;
+    min-width: 100%;
+    min-height: 100%;
     width: 100%;
+    height: 100%;
+    grid-area: b;
+    margin: 0 auto;
 `
 
 const List = styled.ul`

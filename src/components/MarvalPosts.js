@@ -5,17 +5,17 @@ import Pagination from "./Pagination"
 export const Charcontainer = styled.div`
     display: flex;
     flex-direction: column;
-
-    width: 100%;
-    height: 100%;
     min-width: 100%;
     min-height: 100%;
+    width: 100%;
+    height: 100%;
+
     grid-area: a;
 `
 
 const PicContainrer = styled.div`
-    min-width: 70%;
-    min-height: 50%;
+    min-width: 50%;
+    min-height: 70%;
     width: 100%;
     height: 100%;
 `
@@ -23,7 +23,7 @@ const Img = styled.img`
     min-width: 100%;
     min-height: 100%;
     width: 100%;
-    height: 100%;
+    height: auto;
 `
 const NameContainer = styled.button`
     background: red;

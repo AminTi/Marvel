@@ -8,9 +8,14 @@ const Container = styled.div`
     display: grid;
     grid-template-columns: repeat(3, 0.4fr);
     grid-template-rows: repeat(3, 0.2fr);
-    grid-template-areas: c c c;
-    padding: 50px 50px;
+    grid-template-areas:
+        "a a a"
+        " a a a"
+        ". b .";
+
     grid-gap: 30px;
+    padding: 30px 30px;
+    position: absolute;
 `
 
 function FetchData() {
